@@ -3,6 +3,9 @@
 Workshop 2025-02-26 by Keith Jenkins, GIS Librarian at Mann Library, Cornell University.\
 This document is online at: <https://kgjenkins.github.io/la-5020-athens-ny/>
 
+For help after this workshop, contact me at kgj2@cornell.edu  
+Or set up a Zoom or in-person appointment at <https://guides.library.cornell.edu/gis/help>
+
 All the data and documentation for this workshop can be downloaded from:\
 <https://github.com/kgjenkins/la-5020-athens-ny/archive/main.zip>
 
@@ -10,10 +13,12 @@ After downloading the zip file, be sure to UNZIP it!  (Right-click > Extract All
 
 ### Getting Started
 
-* Open ArcGIS Pro, use Map template
+* Open ArcGIS Pro
+    * Login required -- see https://guides.library.cornell.edu/gis/arcgis
+    * Use the "Map" template to create a new project
 * Create your project in the `la-5020-athens-ny-main` folder that was extracted from the zip file
 
-### Add town and village boundarie
+### Add town and village boundaries
 
 * From the "boundaries" folder, drag the .shp files onto the ArcGIS map
 * Adjust the symbology (in the Contents panel, double-click the color swatch under the layer name)
@@ -39,6 +44,9 @@ After downloading the zip file, be sure to UNZIP it!  (Right-click > Extract All
 * Copy the link to "NYS_Tax_Parcels_Public" (Feature Server)
 * In ArcGIS, Map menu > Add Data From Path
     * <https://gisservices.its.ny.gov/arcgis/rest/services/NYS_Tax_Parcels_Public/FeatureServer>
+* There is a "PROP_CLASS" attribute which contains a 3-digit code
+* These property type classification codes are documented at:
+    * <https://www.tax.ny.gov/research/property/assess/manuals/prclas.htm>
 
 ### Add buildings from web service
 
@@ -110,3 +118,9 @@ After downloading the zip file, be sure to UNZIP it!  (Right-click > Extract All
 * Streets: <https://gis.ny.gov/streets-addresses> (Greene County extracted from statewide dataset)
 
 More data is available in the Box folder for the class.  Many (but not all) data formats can be added by drag-and-drop onto the ArcGIS map.  If you get an error, try using the "Add Data" button on the Map menu.
+
+Other sources:
+* Historical Sanborn fire insurance maps <https://www.loc.gov/collections/sanborn-maps/about-this-collection/>
+* Some of these are being georeferenced at <https://oldinsurancemaps.net/>
+* CUGIR (Cornell University Geospatial Information Repository) <https://cugir.library.cornell.edu/>
+* Geolode, a catalog of open geodata websites: <https://geolode.org/>
